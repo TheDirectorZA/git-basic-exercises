@@ -1,0 +1,80 @@
+    1  git --version
+    2  git --version
+    3  sudo apt install git
+    4  sudo apt update && sudo apt upgrade
+    5  clear
+    6  sudo apt update && sudo apt upgrade
+    7  clear
+    8  sudo apt install git
+    9  git --version
+   10  clear
+   11  sudo apt install code
+   12  sudo apt install software-properties-common apt-transport-https wget gpg
+   13  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   14  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   15  sudo apt update
+   16  sudo apt install code
+   17  ls
+   18  mkdir umuzi_woork
+   19  rmdir umuzi_woork/
+   20  mkdir umuzi_work
+   21  cd umuzi_work/
+   22  code .
+   23  clear
+   24  git config --global
+   25  git config --global user.name
+   26  git config --global user.name "TheDirectorZA"
+   27  git config --global user.email "davidmotsoeneng2001@gmail.com"
+   28  mkdir git-basic-exercises
+   29  cd git-basic-exercises/
+   30  git init
+   31  ls -a
+   32  git status
+   33  touch README.md
+   34  ls -a
+   35  git status
+   36  git log
+   37  git add README.md 
+   38  git status
+   39  git rm --cached README.md 
+   40  git status
+   41  git add README.md 
+   42  git commit -m "initial commit"
+   43  git log
+   44  nano README.md 
+   45  cat README.md 
+   46  git status
+   47  git add README.md 
+   48  git commit -m "second commit"
+   49  nano README.md
+   50  git add README.md \
+   51  git add README.md
+   52  GIT LO
+   53  git log
+   54  git add README.md 
+   55  git commit -m "third commit"
+   56  git log
+   57  git checkout c307ad19e83176c8278cc86f2b55747c2ec36e23
+   58  cat README.md 
+   59  git checkout master
+   60  cat README.md 
+   61  git branch milkshake-flavours
+   62  git branch
+   63  git switch milkshake-flavours
+   64  git branch
+   65  nano milkshakes.md
+   66  git status
+   67  git add milkshakes.md 
+   68  git commit -m "added initial flavours"
+   69  git log
+   70  git switch master
+   71  git branch history
+   72  git branch
+   73  git log
+   74  git branch
+   75  history > history.txt
+   76  ls
+   77  git branch
+   78  rm history.txt 
+   79  git switch history
+   80  history > history.txt
